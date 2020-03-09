@@ -1,0 +1,10 @@
+﻿const CONSTANTS = {};
+CONSTANTS.ENDPOINT = {};
+
+CONSTANTS.PORT = process.env.PORT || "4999";
+CONSTANTS.ENDPOINT.GRID = "/grid";
+
+CONSTANTS.ENDPOINT.MASTERDETAIL = "/masterdetail";
+
+
+module.exports = CONSTANTS;
